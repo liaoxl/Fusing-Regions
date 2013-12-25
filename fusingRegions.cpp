@@ -19,7 +19,7 @@ int color_dict[]={255,0,0, 0,255,0, 0,0,255, 0,255,255, 128,0,0, 0,128,0,
 
 int main(int argc, char* argv[])
 {
-    Mat img=imread("fc.png");
+    Mat img=imread("img.png");
     imshow("Origin", img);
 
     int img_height=img.size().height;
@@ -127,7 +127,9 @@ int main(int argc, char* argv[])
         }
     }
     imshow("Meanshift", dst_img);
+	imwrite("Contour.png", dst_img);
     imshow("FusingRegion", img);
+	imwrite("fusedRegions.png", img);
     waitKey(0);
 
     cout << num_Regions << endl;
