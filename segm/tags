@@ -1,0 +1,222 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddRegion	.\rlist.cpp	/^void RegionList::AddRegion(int label, int pointCount, int *indeces)$/;"	f	class:RegionList
+AddWeightFunction	.\ms.cpp	/^void MeanShift::AddWeightFunction(double g(double), float halfWindow, int sampleNumber, int subspace)$/;"	f	class:MeanShift
+BIG_NUM	.\msImageProcessor.h	57;"	d
+BuildKDTree	.\ms.cpp	/^tree *MeanShift::BuildKDTree(tree *subset, int length, int d, tree* parent)$/;"	f	class:MeanShift
+BuildRAM	.\msImageProcessor.cpp	/^void msImageProcessor::BuildRAM( void )$/;"	f	class:msImageProcessor
+COLOR	.\msImageProcessor.h	/^enum imageType {GRAYSCALE, COLOR};$/;"	e	enum:imageType
+ClassStateStruct	.\ms.h	/^struct ClassStateStruct {$/;"	s
+ClearWeightFunctions	.\ms.cpp	/^void MeanShift::ClearWeightFunctions( void )$/;"	f	class:MeanShift
+ComputeEdgeStrengths	.\msImageProcessor.cpp	/^void msImageProcessor::ComputeEdgeStrengths( void )$/;"	f	class:msImageProcessor
+Connect	.\msImageProcessor.cpp	/^void msImageProcessor::Connect( void )$/;"	f	class:msImageProcessor
+CreateBST	.\ms.cpp	/^void MeanShift::CreateBST( void )$/;"	f	class:MeanShift
+DELTA	.\ms.h	/^const double	DELTA           = 0.00001;	\/\/ used for floating point to integer conversion$/;"	v
+DefineBgImage	.\msImageProcessor.cpp	/^void msImageProcessor::DefineBgImage(byte* data_, imageType type, int height_, int width_)$/;"	f	class:msImageProcessor
+DefineBoundaries	.\msImageProcessor.cpp	/^void msImageProcessor::DefineBoundaries( void )$/;"	f	class:msImageProcessor
+DefineImage	.\msImageProcessor.cpp	/^void msImageProcessor::DefineImage(byte *data_, imageType type, int height_, int width_)$/;"	f	class:msImageProcessor
+DefineInput	.\ms.cpp	/^void MeanShift::DefineInput(float *x, int L_, int N_)$/;"	f	class:MeanShift
+DefineKernel	.\ms.cpp	/^void MeanShift::DefineKernel(kernelType *kernel_, float *h_, int *P_, int kp_)$/;"	f	class:MeanShift
+DefineLInput	.\ms.cpp	/^void MeanShift::DefineLInput(float *x, int ht, int wt, int N_)$/;"	f	class:MeanShift
+DestroyKernel	.\ms.cpp	/^void MeanShift::DestroyKernel( void )$/;"	f	class:MeanShift
+DestroyOutput	.\msImageProcessor.cpp	/^void msImageProcessor::DestroyOutput( void )$/;"	f	class:msImageProcessor
+DestroyRAM	.\msImageProcessor.cpp	/^void msImageProcessor::DestroyRAM( void )$/;"	f	class:msImageProcessor
+EL_ERROR	.\tdef.h	/^enum ErrorLevel		{EL_OKAY, EL_ERROR, EL_HALT};$/;"	e	enum:ErrorLevel
+EL_HALT	.\tdef.h	/^enum ErrorLevel		{EL_OKAY, EL_ERROR, EL_HALT};$/;"	e	enum:ErrorLevel
+EL_OKAY	.\tdef.h	/^enum ErrorLevel		{EL_OKAY, EL_ERROR, EL_HALT};$/;"	e	enum:ErrorLevel
+EPSILON	.\ms.h	/^const double	EPSILON		= 0.01;			\/\/ define threshold (approx. Value of Mh at a peak or plateau)$/;"	v
+ErrorHandler	.\ms.cpp	/^void MeanShift::ErrorHandler(const char *className, const char *methodName, const char *errmsg)$/;"	f	class:MeanShift
+ErrorHandler	.\rlist.cpp	/^void RegionList::ErrorHandler(char *functName, char* errmsg, ErrorType status)$/;"	f	class:RegionList
+ErrorLevel	.\tdef.h	/^enum ErrorLevel		{EL_OKAY, EL_ERROR, EL_HALT};$/;"	g
+ErrorMessage	.\ms.h	/^  char			*ErrorMessage;$/;"	m	class:MeanShift
+ErrorStatus	.\ms.h	/^  ErrorLevel	ErrorStatus;$/;"	m	class:MeanShift
+ErrorType	.\tdef.h	/^enum ErrorType		{NONFATAL, FATAL};$/;"	g
+FATAL	.\tdef.h	/^enum ErrorType		{NONFATAL, FATAL};$/;"	e	enum:ErrorType
+Fill	.\msImageProcessor.cpp	/^void msImageProcessor::Fill(int regionLoc, int label)$/;"	f	class:msImageProcessor
+Filter	.\msImageProcessor.cpp	/^void msImageProcessor::Filter(int sigmaS, float sigmaR, SpeedUpLevel speedUpLevel)$/;"	f	class:msImageProcessor
+FindLMode	.\ms.cpp	/^void MeanShift::FindLMode(double *mode, double *yk)$/;"	f	class:MeanShift
+FindMode	.\ms.cpp	/^void MeanShift::FindMode(double *mode, double *yk)$/;"	f	class:MeanShift
+FuseRegions	.\msImageProcessor.cpp	/^void msImageProcessor::FuseRegions(float sigmaS, int minRegion)$/;"	f	class:msImageProcessor
+GAUSS_INCREMENT	.\ms.h	/^const double	GAUSS_INCREMENT = GAUSS_LIMIT*GAUSS_LIMIT\/GAUSS_NUM_ELS;$/;"	v
+GAUSS_LIMIT	.\ms.h	/^const double	GAUSS_LIMIT     = 2.9;		\/\/ GAUSS_LIMIT     = c$/;"	v
+GAUSS_NUM_ELS	.\ms.h	/^const int		GAUSS_NUM_ELS   = 16;		\/\/ take 16 samples of exp(-u\/2)$/;"	v
+GRAYSCALE	.\msImageProcessor.h	/^enum imageType {GRAYSCALE, COLOR};$/;"	e	enum:imageType
+Gaussian	.\tdef.h	/^enum kernelType		{Uniform, Gaussian, UserDefined};$/;"	e	enum:kernelType
+GetBoundaries	.\msImageProcessor.cpp	/^RegionList *msImageProcessor::GetBoundaries( void )$/;"	f	class:msImageProcessor
+GetLabel	.\rlist.cpp	/^int	RegionList::GetLabel(int regionNum)$/;"	f	class:RegionList
+GetNumRegions	.\rlist.cpp	/^int	RegionList::GetNumRegions( void )$/;"	f	class:RegionList
+GetRawData	.\msImageProcessor.cpp	/^void msImageProcessor::GetRawData(float *outputImageData)$/;"	f	class:msImageProcessor
+GetRegionCount	.\rlist.cpp	/^int RegionList::GetRegionCount(int regionNum)$/;"	f	class:RegionList
+GetRegionIndeces	.\rlist.cpp	/^int *RegionList::GetRegionIndeces(int regionNum)$/;"	f	class:RegionList
+GetRegions	.\msImageProcessor.cpp	/^int msImageProcessor::GetRegions(int **labels_out, float **modes_out, int **MPC_out)$/;"	f	class:msImageProcessor
+GetResults	.\msImageProcessor.cpp	/^void msImageProcessor::GetResults(byte *outputImage)$/;"	f	class:msImageProcessor
+HIGH_SPEEDUP	.\tdef.h	/^enum SpeedUpLevel	{NO_SPEEDUP, MED_SPEEDUP, HIGH_SPEEDUP};$/;"	e	enum:SpeedUpLevel
+INPUT_DEFINED	.\ms.h	/^	bool	INPUT_DEFINED;$/;"	m	struct:ClassStateStruct
+InWindow	.\msImageProcessor.cpp	/^bool msImageProcessor::InWindow(int mode1, int mode2)$/;"	f	class:msImageProcessor
+InitializeInput	.\ms.cpp	/^void MeanShift::InitializeInput(float *x)$/;"	f	class:MeanShift
+InitializeOutput	.\msImageProcessor.cpp	/^void msImageProcessor::InitializeOutput( void )$/;"	f	class:msImageProcessor
+Insert	.\RAList.cpp	/^int RAList::Insert(RAList *entry)$/;"	f	class:RAList
+KERNEL_DEFINED	.\ms.h	/^	bool	KERNEL_DEFINED;$/;"	m	struct:ClassStateStruct
+L	.\ms.h	/^	int				L, N, kp, *P;						\/\/ length, dimension, subspace number, and subspace dimensions$/;"	m	class:MeanShift
+L	.\rlist.h	/^	int			L;						\/\/number of points contained by the data set being classified by$/;"	m	class:RegionList
+LATTICE_DEFINED	.\ms.h	/^	bool	LATTICE_DEFINED;$/;"	m	struct:ClassStateStruct
+LEFT	.\tdef.h	/^enum childType		{LEFT, RIGHT};$/;"	e	enum:childType
+LIMIT	.\ms.h	/^const int		LIMIT           = 100;		\/\/ define max. # of iterations to find mode$/;"	v
+LUV_data	.\msImageProcessor.h	/^	float				*LUV_data;				\/\/stores modes in float format on lattice$/;"	m	class:msImageProcessor
+LUV_treshold	.\msImageProcessor.h	/^   float          LUV_treshold;        \/\/in float mode this determines what "close" means between modes$/;"	m	class:msImageProcessor
+LUVtoRGB	.\msImageProcessor.cpp	/^void msImageProcessor::LUVtoRGB(float *luvVal, byte *rgbVal)$/;"	f	class:msImageProcessor
+LatticeMSVector	.\ms.cpp	/^void MeanShift::LatticeMSVector(double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+LowerBoundX	.\ms.h	/^	int				LowerBoundX, UpperBoundX;			\/\/ Upper and lower bounds for lattice search window$/;"	m	class:MeanShift
+LowerBoundY	.\ms.h	/^	int				LowerBoundY, UpperBoundY;			\/\/ Upper and lower bounds for lattice search window$/;"	m	class:MeanShift
+Lt	.\msImageProcessor.h	/^const double Lt			= 0.008856;$/;"	v
+MED_SPEEDUP	.\tdef.h	/^enum SpeedUpLevel	{NO_SPEEDUP, MED_SPEEDUP, HIGH_SPEEDUP};$/;"	e	enum:SpeedUpLevel
+MSVector	.\ms.cpp	/^void MeanShift::MSVector(double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+MS_H	.\ms.h	46;"	d
+MU	.\ms.h	/^const double	MU				= 0.05;		\/\/ define threshold required that window is near convergence$/;"	v
+MeanShift	.\ms.cpp	/^MeanShift::MeanShift( void )$/;"	f	class:MeanShift
+MeanShift	.\ms.h	/^class MeanShift {$/;"	c
+N	.\ms.h	/^	int				L, N, kp, *P;						\/\/ length, dimension, subspace number, and subspace dimensions$/;"	m	class:MeanShift
+N	.\rlist.h	/^	int			N;						\/\/dimension of data set being classified by region list$/;"	m	class:RegionList
+NODE_MULTIPLE	.\msImageProcessor.h	58;"	d
+NONFATAL	.\tdef.h	/^enum ErrorType		{NONFATAL, FATAL};$/;"	e	enum:ErrorType
+NO_SPEEDUP	.\tdef.h	/^enum SpeedUpLevel	{NO_SPEEDUP, MED_SPEEDUP, HIGH_SPEEDUP};$/;"	e	enum:SpeedUpLevel
+NewNonOptimizedFilter	.\msImageProcessor.cpp	/^void msImageProcessor::NewNonOptimizedFilter(float sigmaS, float sigmaR)$/;"	f	class:msImageProcessor
+NewOptimizedFilter1	.\msImageProcessor.cpp	/^void msImageProcessor::NewOptimizedFilter1(float sigmaS, float sigmaR)$/;"	f	class:msImageProcessor
+NewOptimizedFilter2	.\msImageProcessor.cpp	/^void msImageProcessor::NewOptimizedFilter2(float sigmaS, float sigmaR)$/;"	f	class:msImageProcessor
+NonOptimizedFilter	.\msImageProcessor.cpp	/^void msImageProcessor::NonOptimizedFilter(float sigmaS, float sigmaR)$/;"	f	class:msImageProcessor
+OUTPUT_DEFINED	.\ms.h	/^	bool	OUTPUT_DEFINED;$/;"	m	struct:ClassStateStruct
+OptLatticeMSVector	.\ms.cpp	/^void MeanShift::OptLatticeMSVector(double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+OptimizedFilter1	.\msImageProcessor.cpp	/^void msImageProcessor::OptimizedFilter1(float sigmaS, float sigmaR)$/;"	f	class:msImageProcessor
+OptimizedFilter2	.\msImageProcessor.cpp	/^void msImageProcessor::OptimizedFilter2(float sigmaS, float sigmaR)$/;"	f	class:msImageProcessor
+P	.\ms.h	/^	int				L, N, kp, *P;						\/\/ length, dimension, subspace number, and subspace dimensions$/;"	m	class:MeanShift
+PROGRESS_RATE	.\ms.h	67;"	d
+Prune	.\msImageProcessor.cpp	/^void msImageProcessor::Prune(int minRegion)$/;"	f	class:msImageProcessor
+QuickMedian	.\ms.cpp	/^void MeanShift::QuickMedian(tree *arr, int left, int right, int d)$/;"	f	class:MeanShift
+RALIST_H	.\RAList.h	36;"	d
+RAList	.\RAList.cpp	/^RAList::RAList( void )$/;"	f	class:RAList
+RAList	.\RAList.h	/^class RAList {$/;"	c
+REGION	.\rlist.h	/^struct REGION {$/;"	s
+RGB	.\msImageProcessor.h	/^const double RGB[3][3] = {	{  3.2405, -1.5371, -0.4985 },$/;"	v
+RGBtoLUV	.\msImageProcessor.cpp	/^void msImageProcessor::RGBtoLUV(byte *rgbVal, float *luvVal)$/;"	f	class:msImageProcessor
+RIGHT	.\tdef.h	/^enum childType		{LEFT, RIGHT};$/;"	e	enum:childType
+RLIST_H	.\rlist.h	36;"	d
+RegionList	.\rlist.cpp	/^RegionList::RegionList(int maxRegions_, int L_, int N_)$/;"	f	class:RegionList
+RegionList	.\rlist.h	/^class RegionList {$/;"	c
+RemoveLatticeWeightMap	.\ms.cpp	/^void MeanShift::RemoveLatticeWeightMap(void)$/;"	f	class:MeanShift
+RemoveWeightMap	.\msImageProcessor.cpp	/^void msImageProcessor::RemoveWeightMap( void )$/;"	f	class:msImageProcessor
+Reset	.\rlist.cpp	/^void RegionList::Reset( void )$/;"	f	class:RegionList
+ResetInput	.\ms.cpp	/^void MeanShift::ResetInput( void )$/;"	f	class:MeanShift
+SQ_TC_DFACTOR	.\ms.h	/^const double	SQ_TC_DFACTOR	= 0.0625;	\/\/ (TC_DIST_FACTOR)^2$/;"	v
+SWAP	.\ms.h	70;"	d
+Segment	.\msImageProcessor.cpp	/^void msImageProcessor::Segment(int sigmaS, float sigmaR, int minRegion, SpeedUpLevel speedUpLevel)$/;"	f	class:msImageProcessor
+SetLatticeWeightMap	.\ms.cpp	/^void MeanShift::SetLatticeWeightMap(float *wm)$/;"	f	class:MeanShift
+SetSpeedThreshold	.\msImageProcessor.cpp	/^void msImageProcessor::SetSpeedThreshold(float speedUpThreshold)$/;"	f	class:msImageProcessor
+SetWeightMap	.\msImageProcessor.cpp	/^void msImageProcessor::SetWeightMap(float *wm, float eps)$/;"	f	class:msImageProcessor
+SpeedUpLevel	.\tdef.h	/^enum SpeedUpLevel	{NO_SPEEDUP, MED_SPEEDUP, HIGH_SPEEDUP};$/;"	g
+SqDistance	.\msImageProcessor.cpp	/^float msImageProcessor::SqDistance(int mode1, int mode2)$/;"	f	class:msImageProcessor
+TC_DIST_FACTOR	.\ms.h	/^const double	TC_DIST_FACTOR	= 0.5;		\/\/ cluster search windows near convergence that are a distance$/;"	v
+TDEF_H	.\tdef.h	32;"	d
+TOTAL_ITERATIONS	.\msImageProcessor.h	56;"	d
+TransitiveClosure	.\msImageProcessor.cpp	/^void msImageProcessor::TransitiveClosure( void )$/;"	f	class:msImageProcessor
+Un_prime	.\msImageProcessor.h	/^const double Un_prime	= 0.19784977571475;$/;"	v
+Uniform	.\tdef.h	/^enum kernelType		{Uniform, Gaussian, UserDefined};$/;"	e	enum:kernelType
+UpperBoundX	.\ms.h	/^	int				LowerBoundX, UpperBoundX;			\/\/ Upper and lower bounds for lattice search window$/;"	m	class:MeanShift
+UpperBoundY	.\ms.h	/^	int				LowerBoundY, UpperBoundY;			\/\/ Upper and lower bounds for lattice search window$/;"	m	class:MeanShift
+UserDefined	.\tdef.h	/^enum kernelType		{Uniform, Gaussian, UserDefined};$/;"	e	enum:kernelType
+Vn_prime	.\msImageProcessor.h	/^const double Vn_prime	= 0.46834507665248;$/;"	v
+XYZ	.\msImageProcessor.h	/^const double XYZ[3][3] = {	{  0.4125,  0.3576,  0.1804 },$/;"	v
+Xn	.\msImageProcessor.h	/^const double Xn			= 0.95050;$/;"	v
+Yn	.\msImageProcessor.h	/^const double Yn			= 1.00000;$/;"	v
+Zn	.\msImageProcessor.h	/^const double Zn			= 1.08870;$/;"	v
+byte	.\msImageProcessor.h	/^typedef unsigned char byte;$/;"	t
+childType	.\tdef.h	/^enum childType		{LEFT, RIGHT};$/;"	g
+classConsistencyCheck	.\ms.cpp	/^void MeanShift::classConsistencyCheck(int iN, bool usingLattice)$/;"	f	class:MeanShift
+class_state	.\ms.h	/^	ClassStateStruct	class_state;					\/\/specifies the state of the class(i.e if data has been loaded into $/;"	m	class:MeanShift
+cur	.\RAList.h	/^	RAList	*cur, *prev;$/;"	m	class:RAList
+cur	.\ms.h	/^	userWeightFunct	*head, *cur;						\/\/ user defined weight function linked list$/;"	m	class:MeanShift
+data	.\ms.h	/^	float			*data;								\/\/ memory allocated for data points stored by tree nodes$/;"	m	class:MeanShift
+edgePixelCount	.\RAList.h	/^	int		edgePixelCount;$/;"	m	class:RAList
+edgeStrength	.\RAList.h	/^	float	edgeStrength;$/;"	m	class:RAList
+epsilon	.\msImageProcessor.h	/^	float			epsilon;				\/\/Epsilon used for transitive closure$/;"	m	class:msImageProcessor
+exists	.\RAList.h	/^	unsigned char exists;$/;"	m	class:RAList
+forest	.\ms.h	/^	tree			*forest;							\/\/ memory allocated for tree nodes$/;"	m	class:MeanShift
+freeBlockLoc	.\rlist.h	/^	int			freeBlockLoc;			\/\/points to the next free block of memory in the indexTable$/;"	m	class:RegionList
+freeRAList	.\msImageProcessor.h	/^	RAList			*freeRAList;			\/\/ a pointer to the head of a region adjacency list object$/;"	m	class:msImageProcessor
+freeRegion	.\rlist.h	/^	int			freeRegion;				\/\/an index into the regionList pointing to the next$/;"	m	class:RegionList
+generalLSearch	.\ms.cpp	/^void MeanShift::generalLSearch(double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+generalSearch	.\ms.cpp	/^void MeanShift::generalSearch(tree *gt, int gd, double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+generateLookupTable	.\ms.cpp	/^void MeanShift::generateLookupTable( void )$/;"	f	class:MeanShift
+h	.\ms.h	/^	float			*h;									\/\/ bandwidth vector$/;"	m	class:MeanShift
+halfWindow	.\ms.h	/^  double			halfWindow;$/;"	m	struct:userWeightFunct
+head	.\ms.h	/^	userWeightFunct	*head, *cur;						\/\/ user defined weight function linked list$/;"	m	class:MeanShift
+height	.\ms.h	/^	int				height, width;						\/\/ Height and width of lattice$/;"	m	class:MeanShift
+imageType	.\msImageProcessor.h	/^enum imageType {GRAYSCALE, COLOR};$/;"	g
+increment	.\ms.h	/^	double			*increment;							\/\/ increment used by weight hashing function$/;"	m	class:MeanShift
+indexTable	.\msImageProcessor.h	/^	int				*indexTable;			\/\/used during fill algorithm$/;"	m	class:msImageProcessor
+indexTable	.\rlist.h	/^	int			*indexTable;			\/\/an array of indexes that point into an external structure$/;"	m	class:RegionList
+kernel	.\ms.h	/^	kernelType		*kernel;							\/\/ kernel types for each subspace S[i]$/;"	m	class:MeanShift
+kernelType	.\tdef.h	/^enum kernelType		{Uniform, Gaussian, UserDefined};$/;"	g
+kp	.\ms.h	/^	int				L, N, kp, *P;						\/\/ length, dimension, subspace number, and subspace dimensions$/;"	m	class:MeanShift
+label	.\RAList.h	/^	int		label;$/;"	m	class:RAList
+label	.\rlist.h	/^	int			label;$/;"	m	struct:REGION
+labels	.\msImageProcessor.h	/^	int				*labels;				\/\/ assigns a label to each data point associating it to$/;"	m	class:msImageProcessor
+latticeMSVector	.\ms.cpp	/^void MeanShift::latticeMSVector(double *Mh, double *yk)$/;"	f	class:MeanShift
+left	.\ms.h	/^  tree  *left;$/;"	m	struct:tree
+maxRegions	.\rlist.h	/^	int			maxRegions;				\/\/defines the number maximum number of regions$/;"	m	class:RegionList
+minRegion	.\rlist.h	/^	int			minRegion;$/;"	m	class:RegionList
+modePointCounts	.\msImageProcessor.h	/^	int				*modePointCounts;		\/\/ stores for each mode the number of point mapped to that mode,$/;"	m	class:msImageProcessor
+modeTable	.\ms.h	/^	unsigned char	*modeTable;							\/\/ Assigns a marking to each data point specifying whether$/;"	m	class:MeanShift
+modes	.\msImageProcessor.h	/^	float			*modes;					\/\/ stores the mode data of the input data set, indexed by labels$/;"	m	class:msImageProcessor
+msImageProcessor	.\msImageProcessor.cpp	/^msImageProcessor::msImageProcessor( void )$/;"	f	class:msImageProcessor
+msImageProcessor	.\msImageProcessor.h	/^class msImageProcessor: public MeanShift {$/;"	c
+msImageProcessor_H	.\msImageProcessor.h	37;"	d
+msRawData	.\msImageProcessor.h	/^	float			*msRawData;				\/\/ Raw data output of mean shift algorithm$/;"	m	class:msImageProcessor
+msVector	.\ms.cpp	/^void MeanShift::msVector(double *Mh, double *yk)$/;"	f	class:MeanShift
+my_round	.\msImageProcessor.cpp	/^inline int my_round(double in_x)$/;"	f
+neigh	.\msImageProcessor.h	/^	int				neigh[8];$/;"	m	class:msImageProcessor
+next	.\RAList.h	/^	RAList	*next;$/;"	m	class:RAList
+next	.\ms.h	/^  userWeightFunct	*next;$/;"	m	struct:userWeightFunct
+numRegions	.\rlist.h	/^	int			numRegions;				\/\/the number of regions currently stored by the$/;"	m	class:RegionList
+offset	.\ms.h	/^	float			*offset;							\/\/ defines bandwidth offset caused by the use of a Gaussian kernel$/;"	m	class:MeanShift
+optGeneralLSearch	.\ms.cpp	/^void MeanShift::optGeneralLSearch(double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+optUniformLSearch	.\ms.cpp	/^void MeanShift::optUniformLSearch(double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+parent	.\ms.h	/^  tree  *parent;$/;"	m	struct:tree
+pointCount	.\ms.h	/^	int				pointCount;							\/\/ the number of points stored by the point list$/;"	m	class:MeanShift
+pointCount	.\rlist.h	/^	int			pointCount;$/;"	m	struct:REGION
+pointList	.\ms.h	/^	int				*pointList;							\/\/ a list of data points that due to basin of attraction will$/;"	m	class:MeanShift
+prev	.\RAList.h	/^	RAList	*cur, *prev;$/;"	m	class:RAList
+rR2	.\msImageProcessor.h	/^	float			rR2;					\/\/defines square range radius used when clustering pixels$/;"	m	class:msImageProcessor
+raList	.\msImageProcessor.h	/^	RAList			*raList;				\/\/ an array of RAList objects containing an entry for each$/;"	m	class:msImageProcessor
+raPool	.\msImageProcessor.h	/^	RAList			*raPool;				\/\/ a pool of RAList objects used in the construction of the$/;"	m	class:msImageProcessor
+range	.\ms.h	/^	float			*range;								\/\/ range vector used to perform range search on kd tree, indexed$/;"	m	class:MeanShift
+region	.\rlist.h	/^	int			region;$/;"	m	struct:REGION
+regionCount	.\msImageProcessor.h	/^	int				regionCount;			\/\/ stores the number of connected regions contained by the$/;"	m	class:msImageProcessor
+regionList	.\msImageProcessor.h	/^	RegionList		*regionList;			\/\/ stores the boundary locations for each region$/;"	m	class:msImageProcessor
+regionList	.\rlist.h	/^	REGION		*regionList;			\/\/array of maxRegions regions$/;"	m	class:RegionList
+right	.\ms.h	/^  tree  *right;$/;"	m	struct:tree
+root	.\ms.h	/^	tree			*root;								\/\/ root of kdBST used to store input$/;"	m	class:MeanShift
+sampleNumber	.\ms.h	/^  int				sampleNumber;$/;"	m	struct:userWeightFunct
+speedThreshold	.\msImageProcessor.h	/^   float speedThreshold; \/\/ the % of window radius used in new optimized filter 2.$/;"	m	class:msImageProcessor
+subspace	.\ms.h	/^  int				subspace;$/;"	m	struct:userWeightFunct
+tree	.\ms.h	/^struct tree {$/;"	s
+uniformKernel	.\ms.h	/^	bool			uniformKernel;						\/\/ flag used to indicate if the kernel is uniform or not$/;"	m	class:MeanShift
+uniformLSearch	.\ms.cpp	/^void MeanShift::uniformLSearch(double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+uniformSearch	.\ms.cpp	/^void MeanShift::uniformSearch(tree *gt, int gd, double *Mh_ptr, double *yk_ptr)$/;"	f	class:MeanShift
+userWeightFunct	.\ms.h	/^struct userWeightFunct {$/;"	s
+uv	.\ms.h	/^	double			*uv;								\/\/ stores normalized distance vector between$/;"	m	class:MeanShift
+visitTable	.\msImageProcessor.h	/^	unsigned char	*visitTable;			\/\/Table used to keep track of which pixels have been$/;"	m	class:msImageProcessor
+w	.\ms.h	/^	double			**w;								\/\/ weight function lookup table$/;"	m	class:MeanShift
+w	.\ms.h	/^  double			*w;$/;"	m	struct:userWeightFunct
+weightMap	.\ms.h	/^	float			*weightMap;							\/\/ weight map that may be used to weight the kernel$/;"	m	class:MeanShift
+weightMapDefined	.\ms.h	/^	bool			weightMapDefined;					\/\/ used to indicate if a lattice weight map has been$/;"	m	class:MeanShift
+width	.\ms.h	/^	int				height, width;						\/\/ Height and width of lattice$/;"	m	class:MeanShift
+wsum	.\ms.h	/^	double			wsum;								\/\/ sum of weights calculated at data points within the sphere$/;"	m	class:MeanShift
+x	.\ms.h	/^  float *x;$/;"	m	struct:tree
+~MeanShift	.\ms.cpp	/^MeanShift::~MeanShift( void )$/;"	f	class:MeanShift
+~RAList	.\RAList.cpp	/^RAList::~RAList( void )$/;"	f	class:RAList
+~RegionList	.\rlist.cpp	/^RegionList::~RegionList( void )$/;"	f	class:RegionList
+~msImageProcessor	.\msImageProcessor.cpp	/^msImageProcessor::~msImageProcessor( void )$/;"	f	class:msImageProcessor
